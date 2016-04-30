@@ -1,0 +1,36 @@
+{
+  "name": "latex-editor",
+  "version": "1.0.0",
+  "description": "Super Simple Collaborative Latex Editor",
+  "bin": "latex-editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node latex-editor.js",
+    "postinstall": "node node_modules/bower/bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-js/latex-editor.git"
+  },
+  "keywords": [
+    "Yjs",
+    "Latex"
+  ],
+  "author": "Kevin Jahns <kevin.jahns at rwth-aachen.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-js/latex-editor/issues"
+  },
+  "homepage": "https://github.com/y-js/latex-editor#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "fs-extra": "^0.30.0",
+    "jade": "^1.11.0",
+    "open": "0.0.5",
+    "y-array": "^9.0.0",
+    "y-text": "^9.0.0",
+    "y-websockets-server": "^9.0.1",
+    "yjs": "^11.0.3"
+  }
+}

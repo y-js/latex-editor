@@ -1,0 +1,14 @@
+html
+  head
+    title Latex Editor
+  style
+    include folder.css
+  body
+    h1= '.' + folder
+    div
+      ul
+        each file in files
+          li
+            a(href=file.href)= file.name
+
+

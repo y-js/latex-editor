@@ -1,0 +1,14 @@
+html
+  head
+    style
+      include tex.css
+  body
+    div#ace
+    a#menu(href='.') 
+      span Back
+    i#tooltip Press Control-s / Command-s to save your changes and compile the document ;)
+    iframe(id='view')
+    script(src='/bower_components/yjs/y.js')
+    script(src='/bower_components/ace-builds/src/ace.js')
+    script
+      include tex.js

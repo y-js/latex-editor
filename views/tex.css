@@ -1,0 +1,52 @@
+#ace { 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+}
+#view {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+.inserted {
+  position:absolute;
+  z-index:20;
+  background-color: #FFC107;
+}
+.deleted {
+  position:absolute;
+  z-index:20;
+  background-color: #FFC107;
+}
+
+#menu {
+  position: absolute;
+  z-index: 100;
+  left: calc(50% - 110px);
+  top: -20px;
+	width: 0; 
+	height: 0; 
+  transform: rotate(45deg);
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 80px solid dodgerblue;
+}
+
+#menu * {
+  position: absolute;
+  transform: translate(-16px, 59px);
+  color: aliceblue;
+  
+}
+#tooltip {
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+  left: 50px;
+  color: dodgerblue;
+}

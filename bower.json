@@ -1,0 +1,30 @@
+{
+  "name": "latex-editor",
+  "description": "Super Simple Latex Editor",
+  "main": "latex-editor.js",
+  "authors": [
+    "Kevin Jahns <kevin.jahns at rwth-aachen.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Yjs",
+    "Latex"
+  ],
+  "homepage": "y-js.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "yjs": "^11.0.3",
+    "y-text": "^9.0.0",
+    "y-array": "^9.0.0",
+    "y-memory": "^8.0.4",
+    "y-websockets-client": "^8.0.8",
+    "ace-builds": "^1.2.3"
+  }
+}

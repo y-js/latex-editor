@@ -1,0 +1,36 @@
+h1 {
+  font: 300 30px/1.5 Lucida Console, Monaco, monospace;	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 30px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+li a:hover {
+  font-size: 40px;
+  background: #f6f6f6;
+}
