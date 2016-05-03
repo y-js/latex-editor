@@ -1,6 +1,6 @@
 # Super Simple Latex Editor
 
-This is a fun hackable collaborative latex editor with [Yjs](y-js.org). The idea is to make the editor, and its code very approachable for any developer. It has a nice Rest API, and a built-in directory explorer.
+This is a fun hackable collaborative latex editor with [Yjs](http://y-js.org). The idea is to make the editor, and its code very approachable for any developer. It has a nice Rest API, and a built-in directory explorer.
 
 ```
 npm i -g latex-editor
