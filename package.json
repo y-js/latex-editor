@@ -3,7 +3,11 @@
   "version": "1.0.2",
   "description": "Super Simple Collaborative Latex Editor",
   "bin": "./latex-editor.js",
-  "files": ["bower_components", "latex-editor.js", "views"],
+  "files": [
+    "bower_components",
+    "latex-editor.js",
+    "views"
+  ],
   "scripts": {
     "start": "node latex-editor.js"
   },
@@ -28,6 +32,7 @@
     "jade": "^1.11.0",
     "open": "0.0.5",
     "y-array": "^9.0.0",
+    "y-memory": "^8.0.5",
     "y-text": "^9.0.0",
     "y-websockets-server": "^9.0.1",
     "yjs": "^11.0.3"
